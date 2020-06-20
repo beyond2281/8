@@ -1,4 +1,59 @@
+h1, h2, h3, h4, h5, h6, p, ul, li, div {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "MuseoSansCyrl"; 
+    src: url("../fonts/MuseoSansCyrl.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+body {
+    font-family: "MuseoSansCyrl", sans-serif;
+    color: #333333;;
+}
 .container {
     width: 1170px;
     margin: 0 auto;
 }
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.heading__text {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    
+    
+}
+.main__text {
+    margin-right: 30px;
+}
+.adress {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
+}
+.tel {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #333333;;
+    display: inline-block;
+    margin-top: 9px;
+    
+}
+.button {
+    padding: 19px 30px;
+    background: #ffd200;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
